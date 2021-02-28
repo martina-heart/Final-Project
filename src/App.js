@@ -1,8 +1,9 @@
 import "./App.css";
 import MyMenu from "./Menu/menu";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Menu/Header/header";
-import { SlideShow } from "./Menu/Header/slideshow";
+import Header from "./Components/Header/header";
+import Footer from "./Components/Footer/footer";
+import { SlideShow } from "./Components/Header/slideshow";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <MyMenu />
       <Header />
       <SlideShow />
+      <Footer />
     </>
   );
 }

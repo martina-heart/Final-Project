@@ -1,11 +1,12 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+
 import Queen1 from "../../Images/4_Queen-hd.jpg";
 import Queen2 from "../../Images/queen-hd-3.jpg";
 import Queen3 from "../../Images/queen.jpg";
 import Queen4 from "../../Images/Bohemian-Rhapsody-banner.jpg";
 
-import "../Header/slideshow.css";
+import "./slideshow.css";
 
 export const SlideShow = () => {
   return (
@@ -33,15 +34,17 @@ export const SlideShow = () => {
           <img className="d-block w-100" src={Queen4} alt="Fourt slide" />
         </Carousel.Item>
       </Carousel>
-      <h3>
-        Queen are a British rock band formed in London in 1970. Their classic
-        line-up was Freddie Mercury (lead vocals, piano), Brian May (guitar,
-        vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their
-        earliest works were influenced by progressive rock, hard rock and heavy
-        metal, but the band gradually ventured into more conventional and
-        radio-friendly works by incorporating further styles, such as arena rock
-        and pop rock.
-      </h3>
+      <h2 className="text">
+        Queen are a British rock band formed in London in 1970.
+      </h2>
+      <h2 className="text1">
+        Their classic line-up was Freddie Mercury (lead vocals, piano), Brian
+        May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon
+        (bass). Their earliest works were influenced by progressive rock, hard
+        rock and heavy metal, but the band gradually ventured into more
+        conventional and radio-friendly works by incorporating further styles,
+        such as arena rock and pop rock.
+      </h2>
     </>
   );
 };
