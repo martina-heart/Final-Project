@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Card, Button } from "react-bootstrap";
-import Fan1 from "../../Images/fan1.jpg";
 
 import "../Footer/footer.css";
 
@@ -11,7 +10,7 @@ class Footer extends Component {
     return (
       <>
         {/* <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Fan1} />
+          
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
