@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   AppBar,
   Toolbar,
@@ -9,11 +10,11 @@ import {
   Typography,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
-import useStyles from "../Products/style";
+import makeStyles from "./styles";
 import Logo1 from "../../../Images/logologo.jpeg";
 
-const Navbar = () => {
-  const classes = useStyles();
+const MenuShop = () => {
+  const classes = makeStyles();
   return (
     <>
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
@@ -28,7 +29,7 @@ const Navbar = () => {
             Queen Online Shop
           </Typography>
           <div className={classes.grow} />
-          <div classname={classes.button}>
+          <div className={classes.button}>
             <IconButton aria-label="Show cart items" color="inherit">
               <Badge badgeContent={2} color="secondary">
                 <ShoppingCart />
@@ -41,4 +42,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MenuShop;
