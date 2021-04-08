@@ -15,7 +15,7 @@ const Product = ({ product }) => {
   const classes = useStyles();
 
   return (
-    <div>
+    <>
       <Card className={classes.root}>
         <CardMedia
           className={classes.media}
@@ -43,7 +43,7 @@ const Product = ({ product }) => {
           </IconButton>
         </CardActions>
       </Card>
-    </div>
+    </>
   );
 };
 

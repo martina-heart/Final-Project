@@ -8,6 +8,8 @@ import Queen4 from "../../Images/Bohemian-Rhapsody-banner.jpg";
 
 import "./slideshow.css";
 
+import { MDBContainer, MDBRow, MDBCol, MDBJumbotron, MDBBtn } from "mdbreact";
+
 export const SlideShow = () => {
   return (
     <>
@@ -45,6 +47,28 @@ export const SlideShow = () => {
         conventional and radio-friendly works by incorporating further styles,
         such as arena rock and pop rock.
       </h2>
+      <div>
+        <MDBContainer className="mt-5 text-center">
+          <MDBRow>
+            <MDBCol>
+              <MDBJumbotron>
+                <h2 className="h1 display-3" style={{ color: "red" }}>
+                  {" "}
+                  What is New ???
+                </h2>
+                <h3 className="h2 display-2">Queen Online Store</h3>
+                <hr className="my-2" />
+                <h3>Here you can see some TOP products, for more click here</h3>
+                <p className="lead">
+                  <MDBBtn color="success">Shop</MDBBtn>
+                </p>
+              </MDBJumbotron>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </div>
     </>
   );
 };
+
+export default SlideShow;

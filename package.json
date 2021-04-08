@@ -25,8 +25,12 @@
     "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
+    "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.2"
+    "react-scripts": "4.0.2",
+    "react-social-icons": "^5.0.0",
+    "reactstrap": "^8.9.0",
+    "reshake": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,22 @@
+.name-css {
+  font-family: "Londrina Solid", cursive;
+  text-align: center;
+  font-size: 2cm;
+  border: double firebrick;
+}
+
+.text-f-css {
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Londrina Solid", cursive;
+  font-size: 25px;
+  margin: 10px 40px;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+}

@@ -11,13 +11,13 @@ const Header = () => {
       <Container>
         <Row className="justify-content-md-center">
           <Col>
-            <Image src={queen1} className="logo" />
+            <Image src={queen1} className="logo" fluid />
           </Col>
           <Col>
-            <Image src={queen} alt="queen" className="photo" />
+            <Image src={queen} alt="queen" className="photo" fluid />
           </Col>
           <Col>
-            <Image src={queen1} className="logo" />
+            <Image src={queen1} className="logo" fluid />
           </Col>
         </Row>
       </Container>

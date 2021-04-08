@@ -3,6 +3,7 @@ import { Grid } from "@material-ui/core";
 
 import Product from "../Product/Product";
 import classes from "./style";
+import "./products.css";
 
 // const products = [
 //   {
@@ -26,7 +27,6 @@ import classes from "./style";
 const Products = ({ products }) => {
   return (
     <>
-      <br />
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <Grid container justify="center" spacing={4}>
