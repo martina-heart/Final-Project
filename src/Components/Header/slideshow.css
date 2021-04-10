@@ -10,7 +10,25 @@
 .text1 {
   font-family: "Original Surfer";
 
-  font-size: 30px;
+  font-size: 25px;
 
   padding: 40px;
+}
+
+@media (max-width: 601px) {
+  .text1 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 601px) {
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 601px) {
+  .text-h2 {
+    font-size: 15px;
+  }
 }

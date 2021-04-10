@@ -150,35 +150,40 @@ function FreddieMercury() {
         November 1995. The sleeve of the album shows a view from Freddie’s
         Montreux home. Despite twenty years having passed since Freddie lost his
         life to HIV complications, he remains in the minds of millions
-        throughout the world as one of the greatest artists we will ever see. In
-        September 2010 (coincidentally, around Freddie’s 64th birthday) a poll
-        carried out among rock fans saw him named the Greatest Rock Legend Of
-        All Time, beating Elvis Presley to claim the title, and ahead of David
-        Bowie, Jon Bon Jovi, Jimi Hendrix and Ozzy Osbourne. A spokesman for
-        OnePoll.com which conducted the poll said: "Freddie Mercury had it all,
-        the voice, the image, the stage presence, everything. "He combined his
-        ear for music with an ability to deliver to stadium audiences and as
+        throughout the world as one of the greatest artists we will ever see.
+      </p>
+      <p className="text-f-css">
+        In September 2010 (coincidentally, around Freddie’s 64th birthday) a
+        poll carried out among rock fans saw him named the Greatest Rock Legend
+        Of All Time, beating Elvis Presley to claim the title, and ahead of
+        David Bowie, Jon Bon Jovi, Jimi Hendrix and Ozzy Osbourne. A spokesman
+        for OnePoll.com which conducted the poll said: "Freddie Mercury had it
+        all, the voice, the image, the stage presence, everything. "He combined
+        his ear for music with an ability to deliver to stadium audiences and as
         such millions were devastated when HIV killed him in 1991. His legend
         will live on forever.” (OnePoll.Com. September 6, 2010) September 5,
         2010 saw The Mercury Phoenix Trust launch Freddie For A Day, a major
         annual initiative designed to celebrate Freddie’s life each year on his
         birthday and to support the on-going work of the Trust. The project
         encourages fans to dress as Freddie for a day and in doing so raise
-        funds for MPT through sponsorship. No one could have imagined the
-        extraordinary response which resulted, with fans from 24 countries
-        around the world, from Argentina to Ukraine, seizing on the idea to pay
-        their own special tribute to Freddie. Some sent pictures strutting their
-        stuff at home, singing into a microphone in their bedroom. Others took
-        the plunge and spent the whole day as Freddie, including one US
-        enthusiast who dressed herself as I’m Going Slightly Mad Freddie and
-        then spent her day at the local mall and then at Columbus Zoo in Ohio
-        with a penguin and a gorilla. Another took a TGV trip from France to
-        Switzerland dressed in a harlequin leotard. The stories of extraordinary
-        and fun days spent come in their hundreds, and as a result, Freddie For
-        A Day is now an annual event. Freddie Mercury’s life continues to be
-        celebrated each year through a Mercury Phoenix Trust produced Official
-        Fan Party that is held on his birthday and held in his honour in
-        Montreux, Switzerland. <i>www.mercuryphoenixtrust.com</i>
+        funds for MPT through sponsorship.
+      </p>
+      <p className="text-f-css">
+        No one could have imagined the extraordinary response which resulted,
+        with fans from 24 countries around the world, from Argentina to Ukraine,
+        seizing on the idea to pay their own special tribute to Freddie. Some
+        sent pictures strutting their stuff at home, singing into a microphone
+        in their bedroom. Others took the plunge and spent the whole day as
+        Freddie, including one US enthusiast who dressed herself as I’m Going
+        Slightly Mad Freddie and then spent her day at the local mall and then
+        at Columbus Zoo in Ohio with a penguin and a gorilla. Another took a TGV
+        trip from France to Switzerland dressed in a harlequin leotard. The
+        stories of extraordinary and fun days spent come in their hundreds, and
+        as a result, Freddie For A Day is now an annual event. Freddie Mercury’s
+        life continues to be celebrated each year through a Mercury Phoenix
+        Trust produced Official Fan Party that is held on his birthday and held
+        in his honour in Montreux, Switzerland.{" "}
+        <i>www.mercuryphoenixtrust.com</i>
       </p>
     </>
   );

@@ -17,19 +17,21 @@ export const SlideShow = () => {
         <Carousel.Item interval={4000}>
           <img className="d-block w-100" src={Queen1} alt="First slide" />
           <Carousel.Caption>
-            <h2>In 1981, Queen—at their near peak</h2>
+            <h2 className="text-h2">In 1981, Queen—at their near peak</h2>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img className="d-block w-100" src={Queen2} alt="Secound slide" />
           <Carousel.Caption>
-            <h2>Queen - Rolling Show</h2>
+            <h2 className="text-h2">Queen - Rolling Show</h2>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img className="d-block w-100" src={Queen3} alt="Thirt slide" />
           <Carousel.Caption>
-            <h2>A Kind Of Magic: The Unstoppable Power Of Queen In The 80s</h2>
+            <h2 className="text-h2">
+              A Kind Of Magic: The Unstoppable Power Of Queen In The 80s
+            </h2>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>

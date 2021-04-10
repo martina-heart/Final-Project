@@ -17,7 +17,7 @@ import RogerTaylor from "./Menu/TheBand/RogerTaylor/RogerTaylor";
 import JohnDeacon from "./Menu/TheBand/JohnDeacon/JohnDeacon";
 //About Us
 import History from "./Menu/AboutUs/History/History";
-import Discography from "./Menu/AboutUs/Discography";
+import Discography from "./Menu/AboutUs/Discography/Discography";
 //Music
 import LiveMusic from "./Menu/Music/LiveMusic";
 import Compilations from "./Menu/Music/Comiplations";
