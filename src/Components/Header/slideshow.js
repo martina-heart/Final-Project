@@ -54,14 +54,17 @@ export const SlideShow = () => {
           <MDBRow>
             <MDBCol>
               <MDBJumbotron>
-                <h2 className="h1 display-3" style={{ color: "red" }}>
+                <h2
+                  className="h1 display-3"
+                  style={{ fontWeight: "bold", color: "red" }}
+                >
                   {" "}
                   What is New ???
                 </h2>
                 <h3 className="h2 display-2">Queen Online Store</h3>
                 <hr className="my-2" />
                 <h3>Here you can see some TOP products, for more click here</h3>
-                <p className="lead">
+                <p>
                   <MDBBtn color="success">Shop</MDBBtn>
                 </p>
               </MDBJumbotron>

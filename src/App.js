@@ -19,7 +19,7 @@ import JohnDeacon from "./Menu/TheBand/JohnDeacon/JohnDeacon";
 import History from "./Menu/AboutUs/History/History";
 import Discography from "./Menu/AboutUs/Discography/Discography";
 //Music
-import LiveMusic from "./Menu/Music/LiveMusic";
+import LiveMusic from "./Menu/Music/LiveMusic/LiveMusic";
 import Compilations from "./Menu/Music/Comiplations";
 import Concerts from "./Menu/Music/Concerts";
 

@@ -64,7 +64,7 @@ function JohnDeacon() {
           gap. So, he bought his first bass guitar, an Eko, for £22, and with
           the change of line-up, the band changed their name to The New
           Opposition, with John now playing the bass. Several band name changes
-          later (they were now called Art), 1969 saw John leaving the band for
+          later "they were now called Art", 1969 saw John leaving the band for
           London, taking up studies in electronics at Chelsea College,
           University of London. For the moment, music took second place to
           electronics, but John had of course brought along his old acoustic

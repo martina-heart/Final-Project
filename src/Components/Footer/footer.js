@@ -1,12 +1,10 @@
-import React, { Component } from "react";
-import { Container, Card, Button } from "react-bootstrap";
+import React from "react";
+import { Container } from "react-bootstrap";
 
 import "../Footer/footer.css";
 import { SocialIcon } from "react-social-icons";
 
-class Footer extends Component {
-  state = {};
-
+class Footer extends React.Component {
   render() {
     return (
       <>
@@ -64,8 +62,7 @@ class Footer extends Component {
               <Container id="color">
                 &copy;{new Date().getFullYear()} Copyright:{" "}
                 <a href="https://en.wikipedia.org/wiki/Queen_(band)">
-                  {" "}
-                  Queen.com{" "}
+                  Queen.com
                 </a>
               </Container>
             </div>

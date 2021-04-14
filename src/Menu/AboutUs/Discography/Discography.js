@@ -1,5 +1,4 @@
 import React from "react";
-import "../Discography/Discography.css";
 
 import Image from "react-bootstrap/Image";
 
