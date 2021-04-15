@@ -16,7 +16,7 @@ function Product({ product }) {
 
   return (
     <>
-      <Card>
+      <Card className={classes.root}>
         <CardMedia
           className={classes.media}
           image={product.media.source}

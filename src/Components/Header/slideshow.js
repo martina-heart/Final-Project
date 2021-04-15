@@ -64,9 +64,7 @@ export const SlideShow = () => {
                 <h3 className="h2 display-2">Queen Online Store</h3>
                 <hr className="my-2" />
                 <h3>Here you can see some TOP products, for more click here</h3>
-                <p>
-                  <MDBBtn color="success">Shop</MDBBtn>
-                </p>
+                <p>{/* <MDBBtn color="success">Shop</MDBBtn> */}</p>
               </MDBJumbotron>
             </MDBCol>
           </MDBRow>
