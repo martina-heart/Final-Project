@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 import "../Footer/footer.css";
 import { SocialIcon } from "react-social-icons";
@@ -16,21 +17,22 @@ class Footer extends React.Component {
               continues to have touring productions across the world.
             </p>
             <div className="footer-social-link">
-              <a href="https://www.facebook.com/Queen/">
+              <NavLink to="https://www.facebook.com/Queen/">
                 <SocialIcon network="facebook" bgColor="#3b5998" />
-              </a>
-              <a href="https://twitter.com/queenwillrock?lang=en">
+              </NavLink>
+
+              <NavLink to="https://twitter.com/queenwillrock?lang=en">
                 <SocialIcon network="twitter" bgColor="#00ACEE" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ">
+              </NavLink>
+              <NavLink to="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ">
                 <SocialIcon network="youtube" bgColor="#C4302B" />
-              </a>
-              <a href="https://en.wikipedia.org/wiki/Queen_(band)">
+              </NavLink>
+              <NavLink to="https://en.wikipedia.org/wiki/Queen_(band)">
                 <SocialIcon network="google" bgColor="rgb(221, 75, 57)" />
-              </a>
-              <a href="https://www.instagram.com/officialqueenmusic/">
+              </NavLink>
+              <NavLink to="https://www.instagram.com/officialqueenmusic/">
                 <SocialIcon network="instagram" bgColor="#DD2A7B" />
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="footer-center col-md-4 col-sm-6">
@@ -47,23 +49,25 @@ class Footer extends React.Component {
             <div>
               <i className="fa fa-envelope"></i>
               <p>
-                <a href="#"> philsymes@theprcontact.com</a>
+                <NavLink to="#"> philsymes@theprcontact.com</NavLink>
               </p>
             </div>
           </div>
           <div className="footer-right col-md-4 col-sm-6">
             <h2> QueenOnline</h2>
             <p className="menu">
-              <a href="#"> Home</a> |<a href="#"> About</a> |
-              <a href="#"> News</a> |<a href="#"> Contact</a>
+              <NavLink to="/home">Home</NavLink>|
+              <NavLink to="/about-us/history">History</NavLink> |
+              <NavLink to="/music/live-music">Live Music</NavLink> |
+              <NavLink to="/music/concerts">Concerts</NavLink>
             </p>
 
             <div className="footer-copyright text-center py-3">
               <Container id="color">
                 &copy;{new Date().getFullYear()} Copyright:{" "}
-                <a href="https://en.wikipedia.org/wiki/Queen_(band)">
+                <NavLink to="https://en.wikipedia.org/wiki/Queen_(band)">
                   Queen.com
-                </a>
+                </NavLink>
               </Container>
             </div>
           </div>

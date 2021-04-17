@@ -7,7 +7,6 @@ import Footer from "./Components/Footer/footer";
 
 //menu
 import MyMenu from "./Menu/Menu";
-
 import Home from "./Menu/Home";
 
 //The Band

@@ -135,7 +135,7 @@ function History() {
           the UK were voted by the public into the first UK Music Hall of Fame.
         </p>
       </div>
-      <Image src={Adam} fluid className="center" />
+      <Image src={Adam} fluid style={{ paddingLeft: "40px" }} />
       <p className="text-his">
         Queen’s musical has since opened in Australia, Spain, Las Vegas,USA,
         Russia, Germany and Japan and continues to have touring productions
