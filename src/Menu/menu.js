@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
-import { MDBIcon } from "mdbreact";
+import { MDBIcon, MDBNavItem, MDBNavLink, MDBNav } from "mdbreact";
 
 class MyMenu extends React.Component {
   render() {
@@ -17,9 +17,11 @@ class MyMenu extends React.Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <NavLink to="/home">
-                <MDBIcon icon="home" /> Home
-              </NavLink>
+              <Nav>
+                <Nav.Link href="/home">
+                  <MDBIcon icon="home" /> Home
+                </Nav.Link>
+              </Nav>
 
               <NavDropdown title="About Us" id="collasible-nav-dropdown">
                 <NavDropdown.Item>
@@ -58,6 +60,9 @@ class MyMenu extends React.Component {
                   <NavLink to="/music/concerts">Concerts</NavLink>
                 </NavDropdown.Item>
               </NavDropdown>
+            </Nav>
+            <Nav>
+              <Nav.Link href="/login">Log In</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

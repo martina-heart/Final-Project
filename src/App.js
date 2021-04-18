@@ -22,6 +22,8 @@ import LiveMusic from "./Menu/Music/LiveMusic/LiveMusic";
 import Compilations from "./Menu/Music/Compilations/Compilations";
 import Concerts from "./Menu/Music/Concerts/Concerts";
 
+import AllForms from "./Menu/SignUp/AllForms";
+
 const App = () => {
   return (
     <div>
@@ -40,6 +42,8 @@ const App = () => {
 
           <Route path="/about-us/history" component={History} />
           <Route path="/about-us/discography" component={Discography} />
+
+          <Route path="/login" component={AllForms} />
 
           <Route path="/" component={Home} />
         </Switch>

@@ -1,9 +1,11 @@
 import React from "react";
+
+import { SocialIcon } from "react-social-icons";
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import EmailShare from "react-email-share-link";
 
 import "../Footer/footer.css";
-import { SocialIcon } from "react-social-icons";
 
 class Footer extends React.Component {
   render() {
@@ -17,22 +19,35 @@ class Footer extends React.Component {
               continues to have touring productions across the world.
             </p>
             <div className="footer-social-link">
-              <NavLink to="https://www.facebook.com/Queen/">
-                <SocialIcon network="facebook" bgColor="#3b5998" />
-              </NavLink>
+              <SocialIcon
+                network="facebook"
+                bgColor="#3b5998"
+                url="https://www.facebook.com/Queen"
+              />
 
-              <NavLink to="https://twitter.com/queenwillrock?lang=en">
-                <SocialIcon network="twitter" bgColor="#00ACEE" />
-              </NavLink>
-              <NavLink to="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ">
-                <SocialIcon network="youtube" bgColor="#C4302B" />
-              </NavLink>
-              <NavLink to="https://en.wikipedia.org/wiki/Queen_(band)">
-                <SocialIcon network="google" bgColor="rgb(221, 75, 57)" />
-              </NavLink>
-              <NavLink to="https://www.instagram.com/officialqueenmusic/">
-                <SocialIcon network="instagram" bgColor="#DD2A7B" />
-              </NavLink>
+              <SocialIcon
+                network="twitter"
+                bgColor="#00ACEE"
+                url="https://twitter.com/queenwillrock?lang=en"
+              />
+
+              <SocialIcon
+                network="youtube"
+                bgColor="#C4302B"
+                url="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ"
+              />
+
+              <SocialIcon
+                network="google"
+                bgColor="rgb(221, 75, 57)"
+                url="https://en.wikipedia.org/wiki/Queen_(band)"
+              />
+
+              <SocialIcon
+                network="instagram"
+                bgColor="#DD2A7B"
+                url="https://www.instagram.com/officialqueenmusic"
+              />
             </div>
           </div>
           <div className="footer-center col-md-4 col-sm-6">
@@ -49,7 +64,13 @@ class Footer extends React.Component {
             <div>
               <i className="fa fa-envelope"></i>
               <p>
-                <NavLink to="#"> philsymes@theprcontact.com</NavLink>
+                <EmailShare email="philsymes@theprcontact.com">
+                  {(link) => (
+                    <a href={link} data-rel="external">
+                      philsymes@theprcontact.com
+                    </a>
+                  )}
+                </EmailShare>
               </p>
             </div>
           </div>
@@ -65,9 +86,9 @@ class Footer extends React.Component {
             <div className="footer-copyright text-center py-3">
               <Container id="color">
                 &copy;{new Date().getFullYear()} Copyright:{" "}
-                <NavLink to="https://en.wikipedia.org/wiki/Queen_(band)">
+                <a href="https://en.wikipedia.org/wiki/Queen_(band)">
                   Queen.com
-                </NavLink>
+                </a>
               </Container>
             </div>
           </div>
