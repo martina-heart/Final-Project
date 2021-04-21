@@ -5,21 +5,6 @@
   border: rgb(21, 95, 21) solid;
 }
 
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 30%;
-  position: relative;
-  height: 0;
-}
-
-.video-responsive iframe {
-  left: 10cm;
-  top: 40px;
-  height: 70%;
-  width: 60%;
-  position: absolute;
-}
-
 .text-live {
   font-family: "Metamorphous", cursive;
   font-weight: 30px;

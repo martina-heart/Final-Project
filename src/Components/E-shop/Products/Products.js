@@ -3,7 +3,6 @@ import { Grid } from "@material-ui/core";
 
 import Product from "../Product/Product";
 import classes from "./style";
-import "./products.css";
 
 // const products = [
 //   {

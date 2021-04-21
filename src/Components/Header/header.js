@@ -3,8 +3,6 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 import queen from "../../Images/download1.png";
 import queen1 from "../../Images/download.png";
 
-import "../Header/header.css";
-
 const Header = () => {
   return (
     <div className="d-flex bd-highlight example-parent">
